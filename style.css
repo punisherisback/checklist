@@ -1,0 +1,112 @@
+/* colors : #752092 #C957BC #FFC872 #FFE3B3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+
+
+
+body{
+ 
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FFE3B3
+    
+}
+  .box {
+    max-width: 400px;
+    min-width: 50vw;
+    min-height: 500px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    align-items: center;
+    text-align: center;
+    background-color: #FFC872;
+    box-shadow: none;
+    border: 2px solid #752092;
+    color: #752092;
+  }
+
+  .box:hover{
+    color: #C957BC;
+    box-shadow: 0 0 20px 15px #FFC872;
+    border: 2px solid #C957BC;
+    background-color: #FFE3B3;
+    }
+  
+    .box input{
+       
+        height: 35px;
+        margin: 0;
+        color: #C957BC;
+        border: 2px solid #752092;
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 18px;
+        background-color: #FFE3B3;
+        
+    } 
+    .box ::placeholder{
+        text-align: center;
+        color: #C957BC;
+        font-size: 18px;
+        font-family: 'Libre Baskerville', serif;
+        
+    }
+    .box button{
+        width: 50px;
+        font-family: 'Libre Baskerville', serif;
+        border-radius: 25px;
+        height: 35px;
+        color: #FFE3B3;
+        border: 2px solid #752092;
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+        background-color: #752092;
+    }
+    .box button:hover{
+        background-color:#FFE3B3;
+        color:#752092;
+    }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .box li {
+    position: relative;
+    
+    width: calc(400px-40px);
+    display: flex;
+    align-items: center;
+   overflow: hidden;
+
+    padding: 10px;
+    margin-left: 10px;
+    min-height: 25px;
+    cursor: pointer;
+    border-radius: 15px; 
+   
+
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    background-color: #FFE3B3;
+    
+  }
+  
